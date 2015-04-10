@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7D889DB-115D-4D49-BEF2-D2EB0728B081</string>
+	<key>IDESourceControlProjectName</key>
+	<string>shell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++1063</key>
+		<string>svn://192.168.130.90/china_mlp/desktop-tools/apps/studio365-mac/trunk</string>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++7562</key>
+		<string>svn://source.nanocosm.com/china_mlp/desktop-tools/module/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>build/xcode/shell.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++1063</key>
+		<string>../../..</string>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++7562</key>
+		<string>../../../../module</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++1063</key>
+		<string>svn://192.168.130.90/china_mlp</string>
+		<key>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++7562</key>
+		<string>svn://source.nanocosm.com/china_mlp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.130.90/china_mlp/desktop-tools/apps/studio365-mac/trunk/build/xcode/shell.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++1063</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>desktop-tools/module/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>desktop-tools/module/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>desktop-tools/module/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++7562</string>
+			<key>IDESourceControlWCCName</key>
+			<string>module</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>fec996db-2d98-4a3c-b3d6-fb22a05a86f0++1063</string>
+			<key>IDESourceControlWCCName</key>
+			<string>studio365-mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>

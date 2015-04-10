@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AA5A5C6-5500-49F8-9F30-A380C8FDF23B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlayerKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD970A0D725E7277AF99205EC04369FDF16FB047</key>
+		<string>https://github.com/decarbonization/PlayerKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlayerKit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD970A0D725E7277AF99205EC04369FDF16FB047</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/decarbonization/PlayerKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD970A0D725E7277AF99205EC04369FDF16FB047</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD970A0D725E7277AF99205EC04369FDF16FB047</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlayerKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MorseTrainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MorseTrainer.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A400A1CD0E81D2C800B2AC04 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A400A1CC0E81D2C800B2AC04 /* Sparkle.framework */; };
+		A400A1D90E81D2FB00B2AC04 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A400A1CC0E81D2C800B2AC04 /* Sparkle.framework */; };
+		A400A1DC0E81D45900B2AC04 /* sparkle_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A400A1DB0E81D45900B2AC04 /* sparkle_pub.pem */; };
+		A407AB2618AB2A85005BA0C6 /* SparkleLicense.txt in Resources */ = {isa = PBXBuildFile; fileRef = A407AB2518AB2A85005BA0C6 /* SparkleLicense.txt */; };
+		A41C94720E55FE93002DCC58 /* MTDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C94710E55FE93002DCC58 /* MTDefines.m */; };
+		A42789010E5DF63A00F81265 /* ToolbarInterference.png in Resources */ = {isa = PBXBuildFile; fileRef = A42789000E5DF63A00F81265 /* ToolbarInterference.png */; };
+		A427890B0E5E018D00F81265 /* ToolbarUpdate.icns in Resources */ = {isa = PBXBuildFile; fileRef = A427890A0E5E018D00F81265 /* ToolbarUpdate.icns */; };
+		A444BB540E40093D00A65384 /* MTSourcePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A444BB530E40093D00A65384 /* MTSourcePlayer.m */; };
+		A444BB5C0E4009F100A65384 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A444BB5B0E4009F100A65384 /* AudioToolbox.framework */; };
+		A444BB5E0E4009FC00A65384 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A444BB5D0E4009FC00A65384 /* AudioUnit.framework */; };
+		A444BB600E400A0700A65384 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A444BB5F0E400A0700A65384 /* CoreAudio.framework */; };
+		A4546CC00E4D0E0100237295 /* MTRandomCWSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4546CBF0E4D0E0100237295 /* MTRandomCWSource.m */; };
+		A45A78810E6E46AE00B8B77F /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A45A78800E6E46AE00B8B77F /* PlayButton.png */; };
+		A45A78860E6E47ED00B8B77F /* StopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A45A78850E6E47ED00B8B77F /* StopButton.png */; };
+		A45A78890E6E4A2F00B8B77F /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A45A78880E6E4A2F00B8B77F /* PauseButton.png */; };
+		A45A78AB0E6E506400B8B77F /* TalkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A45A78AA0E6E506400B8B77F /* TalkButton.png */; };
+		A46DECBC0E41741000D8C13C /* MTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DECBB0E41741000D8C13C /* MTPlayer.m */; };
+		A46DECD00E417B1700D8C13C /* MTNoiseSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DECCF0E417B1700D8C13C /* MTNoiseSource.m */; };
+		A46DED880E41829F00D8C13C /* MTFifoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DED870E41829F00D8C13C /* MTFifoSource.m */; };
+		A47DC8D80E537D36007BD324 /* MTPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47DC8D70E537D36007BD324 /* MTPrefController.m */; };
+		A4A02D560E4B3C51001F2F8C /* MTFIFO.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A02D550E4B3C51001F2F8C /* MTFIFO.m */; };
+		A4A02E240E4B4DCC001F2F8C /* MTURLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A02E230E4B4DCC001F2F8C /* MTURLSource.m */; };
+		A4A699020E3ED6B200B7E22D /* MTPatternMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A699010E3ED6B100B7E22D /* MTPatternMap.m */; };
+		A4A699090E3EDBBF00B7E22D /* MTTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A699080E3EDBBF00B7E22D /* MTTimeUtils.m */; };
+		A4A6995F0E3EE61C00B7E22D /* MTController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6995E0E3EE61C00B7E22D /* MTController.m */; };
+		A4A8F4CC0E65B96000C74B6D /* ToolbarSource.icns in Resources */ = {isa = PBXBuildFile; fileRef = A4A8F4CB0E65B96000C74B6D /* ToolbarSource.icns */; };
+		A4A8F4D20E65BDE800C74B6D /* ToolbarContent.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A8F4D10E65BDE800C74B6D /* ToolbarContent.png */; };
+		A4BE28810E3EEE3C0099926B /* MTCWSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BE28800E3EEE3C0099926B /* MTCWSource.m */; };
+		A4C6575E0E4354A60064F74B /* MTQRMSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6575D0E4354A60064F74B /* MTQRMSource.m */; };
+		A4C658D20E438CC90064F74B /* QSO5.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658CC0E438CC90064F74B /* QSO5.txt */; };
+		A4C658D30E438CC90064F74B /* QSO4.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658CD0E438CC90064F74B /* QSO4.txt */; };
+		A4C658D40E438CC90064F74B /* QSO3.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658CE0E438CC90064F74B /* QSO3.txt */; };
+		A4C658D50E438CC90064F74B /* QSO2.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658CF0E438CC90064F74B /* QSO2.txt */; };
+		A4C658D60E438CC90064F74B /* QSO1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658D00E438CC90064F74B /* QSO1.txt */; };
+		A4C658D70E438CC90064F74B /* QSO0.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4C658D10E438CC90064F74B /* QSO0.txt */; };
+		A4D7613B0E77795A004C6816 /* NoiseLicense.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D7613A0E77795A004C6816 /* NoiseLicense.pdf */; };
+		A4D7613F0E777B30004C6816 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4D7613E0E777B30004C6816 /* LICENSE */; };
+		A4DB92CA0E528BCF00080FA2 /* MTOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DB92C90E528BCF00080FA2 /* MTOperationQueue.m */; };
+		A4ECE4930E57A28B008265A1 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4ECE4920E57A28B008265A1 /* Preferences.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A400A1D80E81D2E500B2AC04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A400A1D90E81D2FB00B2AC04 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MorseTrainer.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* MorseTrainer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseTrainer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MorseTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A400A1CC0E81D2C800B2AC04 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		A400A1DB0E81D45900B2AC04 /* sparkle_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_pub.pem; sourceTree = "<group>"; };
+		A407AB2518AB2A85005BA0C6 /* SparkleLicense.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SparkleLicense.txt; sourceTree = "<group>"; };
+		A41C94710E55FE93002DCC58 /* MTDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDefines.m; sourceTree = "<group>"; };
+		A42789000E5DF63A00F81265 /* ToolbarInterference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarInterference.png; sourceTree = "<group>"; };
+		A427890A0E5E018D00F81265 /* ToolbarUpdate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ToolbarUpdate.icns; sourceTree = "<group>"; };
+		A444BB520E40093D00A65384 /* MTSourcePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSourcePlayer.h; sourceTree = "<group>"; };
+		A444BB530E40093D00A65384 /* MTSourcePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSourcePlayer.m; sourceTree = "<group>"; };
+		A444BB5B0E4009F100A65384 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		A444BB5D0E4009FC00A65384 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		A444BB5F0E400A0700A65384 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		A4546CBE0E4D0E0100237295 /* MTRandomCWSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRandomCWSource.h; sourceTree = "<group>"; };
+		A4546CBF0E4D0E0100237295 /* MTRandomCWSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRandomCWSource.m; sourceTree = "<group>"; };
+		A45A78800E6E46AE00B8B77F /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		A45A78850E6E47ED00B8B77F /* StopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopButton.png; sourceTree = "<group>"; };
+		A45A78880E6E4A2F00B8B77F /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		A45A78AA0E6E506400B8B77F /* TalkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TalkButton.png; sourceTree = "<group>"; };
+		A46DECBA0E41741000D8C13C /* MTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayer.h; sourceTree = "<group>"; };
+		A46DECBB0E41741000D8C13C /* MTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayer.m; sourceTree = "<group>"; };
+		A46DECCD0E417A3F00D8C13C /* MTSoundSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSoundSource.h; sourceTree = "<group>"; };
+		A46DECCE0E417B1700D8C13C /* MTNoiseSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNoiseSource.h; sourceTree = "<group>"; };
+		A46DECCF0E417B1700D8C13C /* MTNoiseSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNoiseSource.m; sourceTree = "<group>"; };
+		A46DED860E41829F00D8C13C /* MTFifoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFifoSource.h; sourceTree = "<group>"; };
+		A46DED870E41829F00D8C13C /* MTFifoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFifoSource.m; sourceTree = "<group>"; };
+		A47DC8D70E537D36007BD324 /* MTPrefController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPrefController.m; sourceTree = "<group>"; };
+		A47DC8EF0E537DC9007BD324 /* MTPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPrefController.h; sourceTree = "<group>"; };
+		A4A02D540E4B3C51001F2F8C /* MTFIFO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFIFO.h; sourceTree = "<group>"; };
+		A4A02D550E4B3C51001F2F8C /* MTFIFO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFIFO.m; sourceTree = "<group>"; };
+		A4A02E220E4B4DCC001F2F8C /* MTURLSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTURLSource.h; sourceTree = "<group>"; };
+		A4A02E230E4B4DCC001F2F8C /* MTURLSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTURLSource.m; sourceTree = "<group>"; };
+		A4A699000E3ED6B100B7E22D /* MTPatternMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPatternMap.h; sourceTree = "<group>"; };
+		A4A699010E3ED6B100B7E22D /* MTPatternMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPatternMap.m; sourceTree = "<group>"; };
+		A4A699070E3EDBBF00B7E22D /* MTTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTimeUtils.h; sourceTree = "<group>"; };
+		A4A699080E3EDBBF00B7E22D /* MTTimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTimeUtils.m; sourceTree = "<group>"; };
+		A4A6990E0E3EDD6600B7E22D /* MTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDefines.h; sourceTree = "<group>"; };
+		A4A6995D0E3EE61C00B7E22D /* MTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTController.h; sourceTree = "<group>"; };
+		A4A6995E0E3EE61C00B7E22D /* MTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTController.m; sourceTree = "<group>"; };
+		A4A8F4CB0E65B96000C74B6D /* ToolbarSource.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ToolbarSource.icns; sourceTree = "<group>"; };
+		A4A8F4D10E65BDE800C74B6D /* ToolbarContent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarContent.png; sourceTree = "<group>"; };
+		A4BE287F0E3EEE3C0099926B /* MTCWSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCWSource.h; sourceTree = "<group>"; };
+		A4BE28800E3EEE3C0099926B /* MTCWSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCWSource.m; sourceTree = "<group>"; };
+		A4C6575C0E4354A60064F74B /* MTQRMSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTQRMSource.h; sourceTree = "<group>"; };
+		A4C6575D0E4354A60064F74B /* MTQRMSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTQRMSource.m; sourceTree = "<group>"; };
+		A4C658CC0E438CC90064F74B /* QSO5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO5.txt; sourceTree = "<group>"; };
+		A4C658CD0E438CC90064F74B /* QSO4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO4.txt; sourceTree = "<group>"; };
+		A4C658CE0E438CC90064F74B /* QSO3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO3.txt; sourceTree = "<group>"; };
+		A4C658CF0E438CC90064F74B /* QSO2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO2.txt; sourceTree = "<group>"; };
+		A4C658D00E438CC90064F74B /* QSO1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO1.txt; sourceTree = "<group>"; };
+		A4C658D10E438CC90064F74B /* QSO0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QSO0.txt; sourceTree = "<group>"; };
+		A4D7613A0E77795A004C6816 /* NoiseLicense.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NoiseLicense.pdf; sourceTree = "<group>"; };
+		A4D7613E0E777B30004C6816 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4DB92C80E528BCF00080FA2 /* MTOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOperationQueue.h; sourceTree = "<group>"; };
+		A4DB92C90E528BCF00080FA2 /* MTOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTOperationQueue.m; sourceTree = "<group>"; };
+		A4ECE4900E57A282008265A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				A444BB5C0E4009F100A65384 /* AudioToolbox.framework in Frameworks */,
+				A444BB5E0E4009FC00A65384 /* AudioUnit.framework in Frameworks */,
+				A444BB600E400A0700A65384 /* CoreAudio.framework in Frameworks */,
+				A400A1CD0E81D2C800B2AC04 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4D96A7E0E52CB7E008986A4 /* App Support */,
+				A4D96A7D0E52CB61008986A4 /* Morse Utilities */,
+				A4D96A7C0E52CB44008986A4 /* Sound Players */,
+				A4546C680E4CF86700237295 /* Data Sources */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A400A1CC0E81D2C800B2AC04 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A444BB5F0E400A0700A65384 /* CoreAudio.framework */,
+				A444BB5D0E4009FC00A65384 /* AudioUnit.framework */,
+				A444BB5B0E4009F100A65384 /* AudioToolbox.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MorseTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MorseTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0A27F0E533B0700DBB658 /* Documentation */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MorseTrainer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MorseTrainer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A400A1DB0E81D45900B2AC04 /* sparkle_pub.pem */,
+				A4C4F15B0E80C5930019AA9D /* Icons */,
+				A4C658CB0E438CC90064F74B /* QSO Files */,
+				A4D7613E0E777B30004C6816 /* LICENSE */,
+				A4D7613A0E77795A004C6816 /* NoiseLicense.pdf */,
+				A407AB2518AB2A85005BA0C6 /* SparkleLicense.txt */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MorseTrainer.xib */,
+				A4ECE4920E57A28B008265A1 /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4546C680E4CF86700237295 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE287F0E3EEE3C0099926B /* MTCWSource.h */,
+				A4BE28800E3EEE3C0099926B /* MTCWSource.m */,
+				A4A02D540E4B3C51001F2F8C /* MTFIFO.h */,
+				A4A02D550E4B3C51001F2F8C /* MTFIFO.m */,
+				A46DED860E41829F00D8C13C /* MTFifoSource.h */,
+				A46DED870E41829F00D8C13C /* MTFifoSource.m */,
+				A4A02E220E4B4DCC001F2F8C /* MTURLSource.h */,
+				A4A02E230E4B4DCC001F2F8C /* MTURLSource.m */,
+				A46DECCE0E417B1700D8C13C /* MTNoiseSource.h */,
+				A46DECCF0E417B1700D8C13C /* MTNoiseSource.m */,
+				A4C6575C0E4354A60064F74B /* MTQRMSource.h */,
+				A4C6575D0E4354A60064F74B /* MTQRMSource.m */,
+				A4546CBE0E4D0E0100237295 /* MTRandomCWSource.h */,
+				A4546CBF0E4D0E0100237295 /* MTRandomCWSource.m */,
+				A46DECCD0E417A3F00D8C13C /* MTSoundSource.h */,
+			);
+			name = "Data Sources";
+			path = src;
+			sourceTree = "<group>";
+		};
+		A4C4F15B0E80C5930019AA9D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A45A78850E6E47ED00B8B77F /* StopButton.png */,
+				A45A78880E6E4A2F00B8B77F /* PauseButton.png */,
+				A45A78800E6E46AE00B8B77F /* PlayButton.png */,
+				A4A8F4D10E65BDE800C74B6D /* ToolbarContent.png */,
+				A4A8F4CB0E65B96000C74B6D /* ToolbarSource.icns */,
+				A427890A0E5E018D00F81265 /* ToolbarUpdate.icns */,
+				A42789000E5DF63A00F81265 /* ToolbarInterference.png */,
+				A45A78AA0E6E506400B8B77F /* TalkButton.png */,
+			);
+			name = Icons;
+			path = icons;
+			sourceTree = "<group>";
+		};
+		A4C658CB0E438CC90064F74B /* QSO Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4C658D10E438CC90064F74B /* QSO0.txt */,
+				A4C658D00E438CC90064F74B /* QSO1.txt */,
+				A4C658CF0E438CC90064F74B /* QSO2.txt */,
+				A4C658CE0E438CC90064F74B /* QSO3.txt */,
+				A4C658CD0E438CC90064F74B /* QSO4.txt */,
+				A4C658CC0E438CC90064F74B /* QSO5.txt */,
+			);
+			path = "QSO Files";
+			sourceTree = "<group>";
+		};
+		A4D96A7C0E52CB44008986A4 /* Sound Players */ = {
+			isa = PBXGroup;
+			children = (
+				A46DECBA0E41741000D8C13C /* MTPlayer.h */,
+				A46DECBB0E41741000D8C13C /* MTPlayer.m */,
+				A444BB520E40093D00A65384 /* MTSourcePlayer.h */,
+				A444BB530E40093D00A65384 /* MTSourcePlayer.m */,
+			);
+			name = "Sound Players";
+			path = src;
+			sourceTree = "<group>";
+		};
+		A4D96A7D0E52CB61008986A4 /* Morse Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4A699000E3ED6B100B7E22D /* MTPatternMap.h */,
+				A4A699010E3ED6B100B7E22D /* MTPatternMap.m */,
+				A4A699070E3EDBBF00B7E22D /* MTTimeUtils.h */,
+				A4A699080E3EDBBF00B7E22D /* MTTimeUtils.m */,
+			);
+			name = "Morse Utilities";
+			path = src;
+			sourceTree = "<group>";
+		};
+		A4D96A7E0E52CB7E008986A4 /* App Support */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6990E0E3EDD6600B7E22D /* MTDefines.h */,
+				A41C94710E55FE93002DCC58 /* MTDefines.m */,
+				A4A6995D0E3EE61C00B7E22D /* MTController.h */,
+				A4A6995E0E3EE61C00B7E22D /* MTController.m */,
+				A4DB92C80E528BCF00080FA2 /* MTOperationQueue.h */,
+				A4DB92C90E528BCF00080FA2 /* MTOperationQueue.m */,
+				A47DC8EF0E537DC9007BD324 /* MTPrefController.h */,
+				A47DC8D70E537D36007BD324 /* MTPrefController.m */,
+			);
+			name = "App Support";
+			path = src;
+			sourceTree = "<group>";
+		};
+		A4E0A27F0E533B0700DBB658 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			path = doc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MorseTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MorseTrainer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				A400A1D80E81D2E500B2AC04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTrainer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MorseTrainer;
+			productReference = 8D1107320486CEB800E47090 /* MorseTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MorseTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MorseTrainer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MorseTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MorseTrainer.xib in Resources */,
+				A407AB2618AB2A85005BA0C6 /* SparkleLicense.txt in Resources */,
+				A4C658D20E438CC90064F74B /* QSO5.txt in Resources */,
+				A4C658D30E438CC90064F74B /* QSO4.txt in Resources */,
+				A4C658D40E438CC90064F74B /* QSO3.txt in Resources */,
+				A4C658D50E438CC90064F74B /* QSO2.txt in Resources */,
+				A4C658D60E438CC90064F74B /* QSO1.txt in Resources */,
+				A4C658D70E438CC90064F74B /* QSO0.txt in Resources */,
+				A4ECE4930E57A28B008265A1 /* Preferences.xib in Resources */,
+				A42789010E5DF63A00F81265 /* ToolbarInterference.png in Resources */,
+				A427890B0E5E018D00F81265 /* ToolbarUpdate.icns in Resources */,
+				A4A8F4CC0E65B96000C74B6D /* ToolbarSource.icns in Resources */,
+				A4A8F4D20E65BDE800C74B6D /* ToolbarContent.png in Resources */,
+				A45A78810E6E46AE00B8B77F /* PlayButton.png in Resources */,
+				A45A78860E6E47ED00B8B77F /* StopButton.png in Resources */,
+				A45A78890E6E4A2F00B8B77F /* PauseButton.png in Resources */,
+				A45A78AB0E6E506400B8B77F /* TalkButton.png in Resources */,
+				A4D7613B0E77795A004C6816 /* NoiseLicense.pdf in Resources */,
+				A4D7613F0E777B30004C6816 /* LICENSE in Resources */,
+				A400A1DC0E81D45900B2AC04 /* sparkle_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				A4A699020E3ED6B200B7E22D /* MTPatternMap.m in Sources */,
+				A4A699090E3EDBBF00B7E22D /* MTTimeUtils.m in Sources */,
+				A4A6995F0E3EE61C00B7E22D /* MTController.m in Sources */,
+				A4BE28810E3EEE3C0099926B /* MTCWSource.m in Sources */,
+				A444BB540E40093D00A65384 /* MTSourcePlayer.m in Sources */,
+				A46DECBC0E41741000D8C13C /* MTPlayer.m in Sources */,
+				A46DECD00E417B1700D8C13C /* MTNoiseSource.m in Sources */,
+				A46DED880E41829F00D8C13C /* MTFifoSource.m in Sources */,
+				A4C6575E0E4354A60064F74B /* MTQRMSource.m in Sources */,
+				A4A02D560E4B3C51001F2F8C /* MTFIFO.m in Sources */,
+				A4A02E240E4B4DCC001F2F8C /* MTURLSource.m in Sources */,
+				A4546CC00E4D0E0100237295 /* MTRandomCWSource.m in Sources */,
+				A4DB92CA0E528BCF00080FA2 /* MTOperationQueue.m in Sources */,
+				A47DC8D80E537D36007BD324 /* MTPrefController.m in Sources */,
+				A41C94720E55FE93002DCC58 /* MTDefines.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MorseTrainer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MorseTrainer.xib;
+			sourceTree = "<group>";
+		};
+		A4ECE4920E57A28B008265A1 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4ECE4900E57A282008265A1 /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MorseTrainer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MorseTrainer;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MorseTrainer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MorseTrainer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MorseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MorseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

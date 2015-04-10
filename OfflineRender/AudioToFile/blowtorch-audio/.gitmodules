@@ -1,0 +1,24 @@
+[submodule "dependencies/WebViewJavascriptBridge"]
+	path = dependencies/WebViewJavascriptBridge
+	url = git@github.com:marcuswestin/WebViewJavascriptBridge.git
+[submodule "dependencies/node-uuid"]
+	path = dependencies/node-uuid
+	url = https://github.com/broofa/node-uuid.git
+[submodule "dependencies/Light-Untar-for-iOS"]
+	path = dependencies/Light-Untar-for-iOS
+	url = https://github.com/mhausherr/Light-Untar-for-iOS.git
+[submodule "dependencies/WebViewProxy"]
+	path = dependencies/WebViewProxy
+	url = git@github.com:marcuswestin/WebViewProxy.git
+[submodule "dependencies/UIImage-Categories"]
+	path = dependencies/UIImage-Categories
+	url = git://github.com/mbcharbonneau/UIImage-Categories.git
+[submodule "dependencies/Base64"]
+	path = dependencies/Base64
+	url = git://github.com/nicklockwood/Base64.git
+[submodule "dependencies/HandyHelpers"]
+	path = dependencies/HandyHelpers
+	url = git@github.com:marcuswestin/HandyHelpers.git
+[submodule "dependencies/fmdb"]
+	path = dependencies/fmdb
+	url = git://github.com/ccgus/fmdb.git

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TestFM/TestFM.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PlayerKit/PlayerKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Play/Play.xcodeproj">
+   </FileRef>
+</Workspace>

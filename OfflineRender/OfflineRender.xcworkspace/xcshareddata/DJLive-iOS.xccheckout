@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C17481C7-B136-4E0B-9DB6-444C1ECD262C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DJLive-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7CE1757FF2299A2E5D67ABC28189A78F7627F60D</key>
+		<string>https://github.com/uzstudio/DJLive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DJLive-iOS.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7CE1757FF2299A2E5D67ABC28189A78F7627F60D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/uzstudio/DJLive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7CE1757FF2299A2E5D67ABC28189A78F7627F60D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7CE1757FF2299A2E5D67ABC28189A78F7627F60D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DJLive</string>
+		</dict>
+	</array>
+</dict>
+</plist>

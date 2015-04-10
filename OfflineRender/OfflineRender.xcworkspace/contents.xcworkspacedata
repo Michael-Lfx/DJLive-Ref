@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OffScheduleSound/OffScheduleSound.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:morsetrainer/MorseTrainer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AUOfflineReder-master/offlinerender.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioToFile/AudioToFile.xcodeproj">
+   </FileRef>
+</Workspace>

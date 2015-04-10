@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SUCheckAtStartup</key>
+	<true/>
+	<key>useInMemoryDatabase</key>
+	<false/>
+	<key>playerVolume</key>
+	<real>1</real>
+	<key>enableAudioScrobbler</key>
+	<false/>
+	<key>enableiScrobbler</key>
+	<true/>
+	<key>enableGrowlNotifications</key>
+	<true/>
+	<key>alwaysPlayStreamsWhenDoubleClicked</key>
+	<false/>
+	<key>rescanMetadataBeforePlayback</key>
+	<false/>
+	<key>rememberPlayQueue</key>
+	<true/>
+	<key>removeStreamsFromPlayQueueWhenFinished</key>
+	<true/>
+	<key>limitPlayQueueHistorySize</key>
+	<false/>
+	<key>playQueueHistorySize</key>
+	<real>5</real>
+	<key>playPauseHotKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>0</integer>
+	</dict>
+	<key>playNextStreamHotKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>0</integer>
+	</dict>
+	<key>playPreviousStreamHotKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>0</integer>
+	</dict>
+	<key>outputAudioDeviceUID</key>
+	<string></string>
+	<key>preAmplification</key>
+	<real>6</real>
+	<key>replayGain</key>
+	<integer>0</integer>
+	<key>clippingPrevention</key>
+	<integer>0</integer>
+	<key>numberOfAudioSlicesInBuffer</key>
+	<real>20</real>
+	<key>numberOfAudioFramesPerSlice</key>
+	<real>4096</real>
+	<key>hogOutputDevice</key>
+	<false/>
+	<key>automaticallySetOutputDeviceSampleRate</key>
+	<false/>
+</dict>
+</plist>

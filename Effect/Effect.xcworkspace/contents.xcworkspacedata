@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:UnitRec/RecThroughUnit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libpd-master/libpd.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EffectsContainer-master/effectsContainer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DPMusicController-master/Demo/DPMusicControllerDemoApp.xcodeproj">
+   </FileRef>
+</Workspace>
