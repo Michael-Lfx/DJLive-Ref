@@ -41,18 +41,12 @@
 		9A86046B187BE29300BA82BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A860469187BE29300BA82BA /* Main.storyboard */; };
 		9A86046E187BE29300BA82BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86046D187BE29300BA82BA /* ViewController.m */; };
 		9A860470187BE29300BA82BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A86046F187BE29300BA82BA /* Images.xcassets */; };
-		9A860477187BE29300BA82BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A860476187BE29300BA82BA /* XCTest.framework */; };
-		9A860478187BE29300BA82BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A860457187BE29300BA82BA /* Foundation.framework */; };
-		9A860479187BE29300BA82BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A86045B187BE29300BA82BA /* UIKit.framework */; };
-		9A860481187BE29300BA82BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A86047F187BE29300BA82BA /* InfoPlist.strings */; };
-		9A860483187BE29300BA82BA /* FFmpegAudioRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A860482187BE29300BA82BA /* FFmpegAudioRecorderTests.m */; };
 		9A86048D187BE4DC00BA82BA /* MicButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A86048C187BE4DC00BA82BA /* MicButton.png */; };
 		9A860499187BF27900BA82BA /* SetupEncodeFormatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A860498187BF27900BA82BA /* SetupEncodeFormatTableViewController.m */; };
 		9A86049E187C006400BA82BA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86049D187C006400BA82BA /* SettingViewController.m */; };
 		9A8604A1187C007800BA82BA /* SetupEncodeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8604A0187C007800BA82BA /* SetupEncodeMethodViewController.m */; };
 		9A8CF0201938843300EBEF87 /* AudioUnitPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9A8CF01F1938843300EBEF87 /* AudioUnitPlayer.mm */; };
 		9AC880D61947F50600F7D36B /* m4a_save.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AC880D51947F50600F7D36B /* m4a_save.c */; };
-		9AED6EDE1885365D00535C8B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED6EDD1885365D00535C8B /* AudioToolbox.framework */; };
 		9AED6EE218853B3F00535C8B /* AudioQueueRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AED6EE118853B3F00535C8B /* AudioQueueRecorder.m */; };
 		9AED6EE31885492100535C8B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED6EDF1885366700535C8B /* CoreAudio.framework */; };
 		B216E6301936170400F15B28 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216E62F1936170400F15B28 /* CoreMedia.framework */; };
@@ -67,16 +61,6 @@
 		B28821B118C8D77700050222 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = B28821AD18C8D77700050222 /* TPCircularBuffer.c */; };
 		B28821B218C8D77700050222 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = B28821AF18C8D77700050222 /* TPCircularBuffer+AudioBufferList.c */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A86047A187BE29300BA82BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A86044C187BE29300BA82BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A860453187BE29300BA82BA;
-			remoteInfo = FFmpegAudioRecorder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9A0A854F188FCF3800655A22 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
@@ -134,7 +118,6 @@
 		9A86046C187BE29300BA82BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A86046D187BE29300BA82BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A86046F187BE29300BA82BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9A860475187BE29300BA82BA /* FFmpegAudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFmpegAudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A860476187BE29300BA82BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9A86047E187BE29300BA82BA /* FFmpegAudioRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFmpegAudioRecorderTests-Info.plist"; sourceTree = "<group>"; };
 		9A860480187BE29300BA82BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -151,7 +134,6 @@
 		9A8CF01F1938843300EBEF87 /* AudioUnitPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioUnitPlayer.mm; sourceTree = "<group>"; };
 		9AC880D41947F50600F7D36B /* m4a_save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4a_save.h; sourceTree = "<group>"; };
 		9AC880D51947F50600F7D36B /* m4a_save.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = m4a_save.c; sourceTree = "<group>"; };
-		9AED6EDD1885365D00535C8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9AED6EDF1885366700535C8B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		9AED6EE118853B3F00535C8B /* AudioQueueRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueRecorder.m; sourceTree = "<group>"; };
 		B216E62F1936170400F15B28 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -187,23 +169,12 @@
 				9A69DA2818D003CC00C7FD58 /* libavutil.a in Frameworks */,
 				9A69DA2518D003CC00C7FD58 /* libavdevice.a in Frameworks */,
 				9AED6EE31885492100535C8B /* CoreAudio.framework in Frameworks */,
-				9AED6EDE1885365D00535C8B /* AudioToolbox.framework in Frameworks */,
 				9A20ADDA187FE99600A5FC37 /* AVFoundation.framework in Frameworks */,
 				9A86045A187BE29300BA82BA /* CoreGraphics.framework in Frameworks */,
 				9A86045C187BE29300BA82BA /* UIKit.framework in Frameworks */,
 				9A69DA2A18D003CC00C7FD58 /* libswscale.a in Frameworks */,
 				9A69DA2418D003CC00C7FD58 /* libavcodec.a in Frameworks */,
 				9A860458187BE29300BA82BA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A860472187BE29300BA82BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A860477187BE29300BA82BA /* XCTest.framework in Frameworks */,
-				9A860479187BE29300BA82BA /* UIKit.framework in Frameworks */,
-				9A860478187BE29300BA82BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				9A860454187BE29300BA82BA /* FFmpegAudioRecorder.app */,
-				9A860475187BE29300BA82BA /* FFmpegAudioRecorderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,7 +269,6 @@
 				9A69DA2D18D0054F00C7FD58 /* libbz2.1.0.dylib */,
 				9A69DA2B18D0054400C7FD58 /* libz.1.2.5.dylib */,
 				9AED6EDF1885366700535C8B /* CoreAudio.framework */,
-				9AED6EDD1885365D00535C8B /* AudioToolbox.framework */,
 				9A20ADD9187FE99600A5FC37 /* AVFoundation.framework */,
 				9A860457187BE29300BA82BA /* Foundation.framework */,
 				9A860459187BE29300BA82BA /* CoreGraphics.framework */,
@@ -446,24 +415,6 @@
 			productReference = 9A860454187BE29300BA82BA /* FFmpegAudioRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A860474187BE29300BA82BA /* FFmpegAudioRecorderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A860489187BE29300BA82BA /* Build configuration list for PBXNativeTarget "FFmpegAudioRecorderTests" */;
-			buildPhases = (
-				9A860471187BE29300BA82BA /* Sources */,
-				9A860472187BE29300BA82BA /* Frameworks */,
-				9A860473187BE29300BA82BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A86047B187BE29300BA82BA /* PBXTargetDependency */,
-			);
-			name = FFmpegAudioRecorderTests;
-			productName = FFmpegAudioRecorderTests;
-			productReference = 9A860475187BE29300BA82BA /* FFmpegAudioRecorderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -474,18 +425,15 @@
 				ORGANIZATIONNAME = "Liao KuoHsun";
 				TargetAttributes = {
 					9A860453187BE29300BA82BA = {
-						DevelopmentTeam = 7GD32M775H;
+						DevelopmentTeam = F3M22SZ6U9;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
 							com.apple.InterAppAudio = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
-					};
-					9A860474187BE29300BA82BA = {
-						TestTargetID = 9A860453187BE29300BA82BA;
 					};
 				};
 			};
@@ -503,7 +451,6 @@
 			projectRoot = "";
 			targets = (
 				9A860453187BE29300BA82BA /* FFmpegAudioRecorder */,
-				9A860474187BE29300BA82BA /* FFmpegAudioRecorderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -527,14 +474,6 @@
 				B2620C1718C8BB78009109EF /* Pause64x64@2x.png in Resources */,
 				9A86046B187BE29300BA82BA /* Main.storyboard in Resources */,
 				9A283CEC1902454C0050F0A3 /* AAC_12khz_Mono_5.aac in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A860473187BE29300BA82BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A860481187BE29300BA82BA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,23 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A860471187BE29300BA82BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A860483187BE29300BA82BA /* FFmpegAudioRecorderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9A86047B187BE29300BA82BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A860453187BE29300BA82BA /* FFmpegAudioRecorder */;
-			targetProxy = 9A86047A187BE29300BA82BA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9A860460187BE29300BA82BA /* InfoPlist.strings */ = {
@@ -709,7 +632,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = FFmpegAudioRecorder/FFmpegAudioRecorder.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -734,7 +656,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = FFmpegAudioRecorder/FFmpegAudioRecorder.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -750,46 +671,6 @@
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		9A86048A187BE29300BA82BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFmpegAudioRecorder.app/FFmpegAudioRecorder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FFmpegAudioRecorder/FFmpegAudioRecorder-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FFmpegAudioRecorderTests/FFmpegAudioRecorderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9A86048B187BE29300BA82BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFmpegAudioRecorder.app/FFmpegAudioRecorder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FFmpegAudioRecorder/FFmpegAudioRecorder-Prefix.pch";
-				INFOPLIST_FILE = "FFmpegAudioRecorderTests/FFmpegAudioRecorderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -810,15 +691,6 @@
 			buildConfigurations = (
 				9A860487187BE29300BA82BA /* Debug */,
 				9A860488187BE29300BA82BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A860489187BE29300BA82BA /* Build configuration list for PBXNativeTarget "FFmpegAudioRecorderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A86048A187BE29300BA82BA /* Debug */,
-				9A86048B187BE29300BA82BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
